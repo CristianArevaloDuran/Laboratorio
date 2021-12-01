@@ -73,6 +73,11 @@
     padding: 20px;
     border-radius: 20px;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color .3s ease;
+}
+
+.articulos .articulo:hover {
+    background-color: #d9d4fd;
 }
 
 .articulos .articulo .contenido {
