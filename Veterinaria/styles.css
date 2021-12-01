@@ -65,7 +65,7 @@
 .articulos {
     min-width: 50%;
     max-width: 60%;
-    display: inline-block;
+    float: left;
 }
 
 .articulos .articulo {
@@ -124,9 +124,9 @@
 /*Aside*/
 
 .aside {
-    float: right;
-    margin-top: 20px;
-    width: 30%;
+    float: left;
+    margin: 20px 0 0 50px;
+    width: 35%;
 }
 
 .aside h2 {
@@ -135,6 +135,7 @@
     color: #fff;
     padding: 10px 20px;
     text-align: center;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 20px 20px 0 0;
 }
 
@@ -142,6 +143,50 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #d9d4fd;
+    border-radius: 0 0 20px 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aside form .input {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.aside form .input:last-child {
+    margin-bottom: 0;
+}
+
+.aside form .input label {
+    font-size: 20px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.aside form .input input {
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    outline: none;
+}
+
+.aside form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #457580;
+    color: #EBE8FF;
+    border: 0;
+    margin-top: 20px;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 /*Aside*/
