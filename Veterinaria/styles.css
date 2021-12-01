@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-Regular.ttf");
+    src: url("fuente/Poppins-Regular.ttf");
 }
 
 /*Fuente*/
@@ -53,3 +53,32 @@
 }
 
 /*Navegacion*/
+
+/*Articulos*/
+
+.articulos {
+    min-width: 50%;
+    max-width: 60%;
+}
+
+.articulos .articulo {
+    background-color: #EBE8FF;
+    margin: 20px 0 0 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articulos .articulo .contenido {
+    display: flex;
+}
+
+.articulos .articulo .contenido .imagen {
+    max-width: 200px;
+}
+
+.articulos .articulo .contenido .imagen img {
+    object-fit: cover;
+}
+
+/*Articulos*/
