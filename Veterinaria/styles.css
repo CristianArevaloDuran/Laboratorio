@@ -181,12 +181,30 @@
 .aside form input[type="submit"] {
     padding: 10px 20px;
     background-color: #457580;
-    color: #EBE8FF;
+    color: #fff;
     border: 0;
     margin-top: 20px;
     font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /*Aside*/
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    background-color: #EBE8FF;
+    height: 100px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+/*Footer*/
